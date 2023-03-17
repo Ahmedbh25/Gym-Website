@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0
+}
+
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) ,  url("../wallpaper.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width:1200px;
+    height : 75px;
+    margin :auto;
+}
+
+.icon {
+    cursor: pointer;
+    padding-top: 15px;
+    width: 300px;
+    float: left;
+    height:70px;
+}
+
+.icon h1{
+    display: inline;
+    color:orange;
+    font-size: 30px;
+    font-family: arial;
+    padding-left:15px;
+
+}
+
+.navlinks{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.navlinks ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlinks ul li {
+    display: inline;
+    color : white;
+    font-size:1.1rem;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+}
+
+.navlinks ul li a{
+    color : white;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.navlinks ul li a:hover{
+    color : orange;
+    font-family: arial;
+    transition: 0.4s ease-in-out;
+}
+
+#logo {
+    width: 17%;
+    height:50%;
+    border-radius: 50%;
+    float: left;
+}
+
+.search {
+    width : 330px;
+    float: left;
+    margin-left: 140px;
+}
+
+.inpSrch{
+    font-family: "time new roman";
+    width: 200px;
+    height: 40px;
+    background:transparent;
+    border: solid 1px #ff7200;
+    margin-top: 15px ;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    padding:10px;
+    font-size: 16px;
+    color: #fff;
+    float:left;
+}
+
+.btn {
+
+    width: 100px ;
+    height: 40px;
+    margin-top: 15px ;
+    background: #ff7200;
+    border:2px solid #ff7200;
+    margin-top: 15px;
+    color:#fff;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline : none;
+}
+
+.inpSrch:focus{
+    outline:none;
+}
+
+.content{
+    width: 1200px;
+    height:auto;
+    margin:auto;
+    color: #fff;
+    position : relative;
+}
+
+.content .paragraph {
+    padding-left: 20px;
+    padding-bottom : 25px;
+    padding-top:5px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height : 30px;
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left:20px;
+    padding-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content span {
+    color : #ff7200;
+    font-weight: bold;
+}
+
+.content .join{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border : none;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.content .join a{
+    text-decoration: none;
+    color : #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content .join:hover{
+    background-color: silver;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background : linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    left: 870px;
+    top : 20px;
+    border-radius: 10px;
+    padding: 25px; 
+
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color : #ff7200;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 8px;   
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    margin-top: 30px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline:none;
+}
+
+::placeholder{
+    color : white;
+    font-family: arial;
+}
+
+.btns{
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ff7200;
+    border: none;
+    border-radius: 5px;
+    margin-top:30px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btns a{
+    text-decoration: none;
+    color : #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btns:hover{
+    background:silver;
+}
+
+.form .register{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link {
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 16px;
+    color :#ff7200;
+    display: block;
+}
+
+.form .loginWith{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align:center;
+}
